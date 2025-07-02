@@ -10,7 +10,7 @@ Ouvre (ou crée) le fichier *.gitignore* à la racine du projet et ajoute :
 .rpi-poc/
 ```
 
-2.Supprimer le dossier de l’index Git sans le supprimer du disque local :
+2. Supprimer le dossier de l’index Git sans le supprimer du disque local :
 ```bash
 git rm -r --cached .rpi-poc
 ```
