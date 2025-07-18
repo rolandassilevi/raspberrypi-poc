@@ -26,7 +26,7 @@ Ce Lab simule un système de sécurité domotique à 4 zones à l’aide d’un 
 | Raspberry Pi (avec GPIO header)  | 1        |
 | GPIO T-Plus (adaptateur GPIO)    | 1        |
 | Breadboard                       | 1        |
-| Afficheur 7 segments (anode commune) | 1    |
+| Afficheur 7 segments  | 1    |
 | Boutons-poussoirs                | 5        |
 | Résistances 220Ω (segments)      | 7        |
 | Résistance 330Ω (LED alarme)     | 1        |
@@ -47,4 +47,4 @@ Ce Lab simule un système de sécurité domotique à 4 zones à l’aide d’un 
 ## 🖥️ Lancement du code
 
 ```bash
-python segment_zones_1.py
+python securite_zones.py
