@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.zones,
+.actions {
+    margin-top: 30px;
+}
+
+.zone,
+.reset {
+    padding: 15px 30px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.red {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset {
+    background-color: #2196F3;
+    color: white;
+}

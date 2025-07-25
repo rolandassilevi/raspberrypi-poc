@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pi Security GUI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Pi Security GUI</h1>
+    <div class="zones">
+        {% for i in range(1, 5) %}
+            <a href="{{ url_for('simulate_zone', zone_id=i) }}" class="zone {% if zone == i %}red{% else %}green{% endif %}">Z{{ i }}</a>
+        {% endfor %}
+    </div>
+    <div class="actions">
+        <a href="{{ url_for('reset') }}" class="reset">Reset</a>
+    </div>
+</body>
+</html>
